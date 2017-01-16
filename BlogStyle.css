@@ -7,10 +7,11 @@
 body {
 	background-image: url("Background.jpg");
 	background-position: fixed;
+	background-repeat: no-repeat;
 }
 
 h1 {
-	
+	font-size: 250%;
 	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
@@ -61,10 +62,16 @@ h1 {
  }
 
  h2 {
+ 	font-size: 200%;
  	text-align: center;
  }
 
+ h4 {
+ 	font-size: 150%;
+ }
+
  p {
+ 	font-size: 100%;
  	color: MintCream;
  	background-color: rgba(42,42, 42, .5);
  	 
